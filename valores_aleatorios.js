@@ -1,7 +1,5 @@
 const mqtt = require('mqtt');
 const client = mqtt.connect('mqtt://localhost', {connectTimeout:10000}); // Replace with your MQTT broker URL
-
-// FILEPATH: /c:/Users/AlexMichaelEspinosaM/Downloads/valores_aleatorios.js
 var contador_StrokeCount = 0;
 const originalJson = {
     "basic_machine_data": {
